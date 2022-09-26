@@ -1,7 +1,8 @@
 // Imports
 const express = require('express')
 const app = express()
-let port = process.env.PORT || 3000;
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 
 // Static Files
 app.use(express.static('public'))
@@ -20,6 +21,6 @@ app.get('', (req, res) => {
 
 
 // Listen on port 3000
-app.listen(3000, function(){
-    console.log("Listening on port 3000")
-});
+app.listen(port, host, function() {
+    console.log("Server started.......");
+  });

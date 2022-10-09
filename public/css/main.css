@@ -55,3 +55,24 @@
 .my-float{
 	margin-top:16px;
 }
+
+.form_container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+.form_title {
+  text-align: center;
+  font-size: 1,8rem;
+  margin-bottom: .4em;
+}

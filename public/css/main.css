@@ -204,3 +204,8 @@ button, select {
     padding: 1rem;
 }
 }
+
+.btn-delivery {
+  color: black;
+  background-color: #93cba3;
+}
